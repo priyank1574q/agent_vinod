@@ -1,0 +1,118 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Streamlit
+.streamlit/
+*.streamlit/
+
+# AWS Credentials (IMPORTANT!)
+bedrock.json
+aws_cred.json
+aws_credentials.json
+.aws/
+credentials.json
+!aws_credentials_template.json
+
+# Uploaded files (user data)
+uploads/
+user_data/
+temp_files/
+
+# Logs
+*.log
+logs/
+streamlit_*.log
+nohup.out
+*.out
+
+# Data files (user uploads)
+*.csv
+*.xlsx
+*.xls
+*.json
+*.txt
+*.pdf
+*.docx
+!sample_data/
+!*_template.*
+!*_example.*
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Testing
+.coverage
+.pytest_cache/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Cache
+.cache/
+cache/
+
+# Generated files
+generated/
+output/
+exports/
