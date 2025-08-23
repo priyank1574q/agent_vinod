@@ -1,0 +1,7 @@
+{
+  "azure_endpoint": "https://aoi-sweden-nykaa.openai.azure.com/",
+  "deployment_name": "gpt-4o",
+  "openai_api_key": "89eb825aabfa42de89ad61564c6b641d",
+  "openai_api_type": "azure",
+  "openai_api_version": "2024-02-15-preview"
+}
